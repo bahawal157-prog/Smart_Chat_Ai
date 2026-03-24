@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # یہاں اپنی Gemini API Key پیسٹ کریں
-genai.configure(api_key="AIzaSyAcXc4GQ0FIV9a3WwLpqpnSU1Uq3a-JINw
+genai.configure(api_key="AIzaSyAcXc4GQ0FIV9a3WwLpqpnSU1Uq3a-JINw")
 st.set_page_config(page_title="SmartChat AI", page_icon="🤖")
 st.title("🤖 SmartChat AI")
 st.write("السلام علیکم جانی! میں آپ کا اپنا اے آئی اسسٹنٹ ہوں۔")
